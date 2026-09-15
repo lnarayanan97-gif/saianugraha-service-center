@@ -1664,4 +1664,323 @@ footer p {
     width: 48px;
     height: 48px;
   }
+}/* =========================================================
+   PREMIUM MULTI-COLOR ENHANCEMENT
+   ========================================================= */
+
+/* HERO */
+.hero {
+  background:
+    radial-gradient(circle at 85% 15%,
+      rgba(0, 174, 199, 0.18),
+      transparent 28%),
+    radial-gradient(circle at 10% 85%,
+      rgba(8, 120, 209, 0.12),
+      transparent 30%),
+    radial-gradient(circle at 55% 45%,
+      rgba(124, 77, 255, 0.05),
+      transparent 32%),
+    #ffffff;
+}
+
+
+/* HERO TITLE */
+.hero-content h1 span {
+  background: linear-gradient(
+    90deg,
+    #0878d1 0%,
+    #00aec7 35%,
+    #00c98d 70%,
+    #0878d1 100%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+/* HERO CARD */
+.hero-card {
+  background:
+    radial-gradient(circle at 30% 25%,
+      rgba(0, 174, 199, 0.16),
+      transparent 25%),
+    radial-gradient(circle at 80% 75%,
+      rgba(124, 77, 255, 0.10),
+      transparent 28%),
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #effcff
+    );
+
+  border-color: #ccecf5;
+}
+
+
+/* WATER ORB */
+.water-orb {
+  background:
+    radial-gradient(
+      circle,
+      rgba(0, 174, 199, 0.28),
+      rgba(8, 120, 209, 0.08) 55%,
+      transparent 70%
+    );
+}
+
+
+/* HEATER */
+.heater-line {
+  background: linear-gradient(
+    135deg,
+    #0878d1,
+    #00aec7,
+    #00d49a
+  );
+}
+
+
+/* SERVICE STRIP */
+.service-strip > div:nth-child(1) span {
+  background: #eaf5ff;
+  color: #0878d1;
+}
+
+.service-strip > div:nth-child(2) span {
+  background: #e9fbf8;
+  color: #00a98f;
+}
+
+.service-strip > div:nth-child(3) span {
+  background: #fff4e8;
+  color: #f28a22;
+}
+
+.service-strip > div:nth-child(4) span {
+  background: #f2edff;
+  color: #7b55d8;
+}
+
+
+/* PRODUCT / SERVICE CARDS */
+.cards .service-card:nth-child(1) .icon {
+  background: linear-gradient(
+    135deg,
+    #e8f4ff,
+    #d8f4ff
+  );
+  color: #0878d1;
+}
+
+.cards .service-card:nth-child(2) .icon {
+  background: linear-gradient(
+    135deg,
+    #e5fbfa,
+    #d8fff5
+  );
+  color: #00a98f;
+}
+
+.cards .service-card:nth-child(3) .icon {
+  background: linear-gradient(
+    135deg,
+    #fff2e7,
+    #fff8dc
+  );
+  color: #ed7d18;
+}
+
+.cards .service-card:nth-child(4) .icon {
+  background: linear-gradient(
+    135deg,
+    #f1ebff,
+    #eee6ff
+  );
+  color: #7654d6;
+}
+
+
+/* CARD TOP GLOW */
+.service-card:nth-child(1)::before {
+  background: rgba(8, 120, 209, 0.09);
+}
+
+.service-card:nth-child(2)::before {
+  background: rgba(0, 174, 199, 0.09);
+}
+
+.service-card:nth-child(3)::before {
+  background: rgba(242, 138, 34, 0.08);
+}
+
+.service-card:nth-child(4)::before {
+  background: rgba(123, 85, 216, 0.08);
+}
+
+
+/* CARD BOTTOM ACCENTS */
+.cards .service-card:nth-child(1)::after {
+  background: linear-gradient(
+    90deg,
+    #0878d1,
+    #00aec7
+  );
+}
+
+.cards .service-card:nth-child(2)::after {
+  background: linear-gradient(
+    90deg,
+    #00aec7,
+    #00c98d
+  );
+}
+
+.cards .service-card:nth-child(3)::after {
+  background: linear-gradient(
+    90deg,
+    #f28a22,
+    #ffc107
+  );
+}
+
+.cards .service-card:nth-child(4)::after {
+  background: linear-gradient(
+    90deg,
+    #7654d6,
+    #a66cff
+  );
+}
+
+
+/* PROBLEM CARDS */
+.problem-grid > div:nth-child(1) {
+  border-top: 4px solid #00aec7;
+}
+
+.problem-grid > div:nth-child(2) {
+  border-top: 4px solid #ff8a00;
+}
+
+.problem-grid > div:nth-child(3) {
+  border-top: 4px solid #0878d1;
+}
+
+.problem-grid > div:nth-child(4) {
+  border-top: 4px solid #7b55d8;
+}
+
+
+/* WHY US */
+.why-grid > div:nth-child(1) {
+  border-top: 4px solid #0878d1;
+}
+
+.why-grid > div:nth-child(2) {
+  border-top: 4px solid #00a98f;
+}
+
+.why-grid > div:nth-child(3) {
+  border-top: 4px solid #f28a22;
+}
+
+.why-grid > div:nth-child(4) {
+  border-top: 4px solid #7b55d8;
+}
+
+
+/* WHY US HOVER */
+.why-grid > div:hover {
+  transform: translateY(-7px);
+}
+
+
+/* BOOKING BOX */
+.booking {
+  background:
+    radial-gradient(circle at 10% 15%,
+      rgba(8, 120, 209, 0.10),
+      transparent 25%),
+    radial-gradient(circle at 90% 85%,
+      rgba(0, 174, 199, 0.12),
+      transparent 25%),
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #effcff
+    );
+}
+
+
+/* BOOKING TITLE */
+.booking h2 {
+  background: linear-gradient(
+    90deg,
+    #075b9e,
+    #00a98f
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+/* SUBMIT BUTTON */
+.booking .btn-primary {
+  background: linear-gradient(
+    90deg,
+    #0878d1,
+    #00aec7,
+    #00b88a
+  );
+
+  box-shadow:
+    0 10px 25px rgba(8, 120, 209, 0.22);
+}
+
+
+/* ABOUT IMAGE BOX */
+.about-image {
+  background:
+    radial-gradient(circle at 30% 30%,
+      rgba(0, 174, 199, 0.15),
+      transparent 28%),
+    radial-gradient(circle at 75% 70%,
+      rgba(123, 85, 216, 0.10),
+      transparent 28%),
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #ecfaff
+    );
+}
+
+
+/* CONTACT CARDS */
+.contact-box > div:nth-child(1) {
+  border-top: 4px solid #0878d1;
+}
+
+.contact-box > div:nth-child(2) {
+  border-top: 4px solid #00a98f;
+}
+
+.contact-box > div:nth-child(3) {
+  border-top: 4px solid #7b55d8;
+}
+
+
+/* FLOATING BUTTONS */
+.floating-actions a:first-child {
+  color: #00a98f;
+}
+
+.floating-actions a:last-child {
+  color: #0878d1;
+}
+
+.floating-actions a:hover {
+  color: white;
 }
