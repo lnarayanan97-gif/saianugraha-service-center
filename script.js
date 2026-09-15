@@ -19,7 +19,37 @@ const form = document.getElementById('bookingForm');
 const note = document.getElementById('formNote');
 
 form?.addEventListener('submit', (event) => {
-  event.preventDefault();
-  note.textContent = 'Request captured. WhatsApp / backend integration will be connected after the final contact details are added.';
-  form.reset();
+    event.preventDefault();
+
+    const formData = new FormData(form);
+
+    const name = formData.get('name') || '';
+    const mobile = formData.get('mobile') || '';
+    const area = formData.get('area') || '';
+    const product = formData.get('product') || '';
+    const service = formData.get('service') || '';
+    const contact = formData.get('contact') || '';
+    const problem = formData.get('problem') || '';
+
+    const message =
+`Hi Sai Anugraha Service Center,
+
+I want to book a service.
+
+Name: ${name}
+Mobile: ${mobile}
+Area / Location: ${area}
+Product: ${product}
+Service Type: ${service}
+Preferred Contact: ${contact}
+Problem / Requirement: ${problem}
+
+Please assist me. Thank you.`;
+
+    const whatsappNumber = '917358396870';
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+    window.open(whatsappURL, '_blank');
+
+    form.reset();
 });
