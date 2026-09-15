@@ -2052,3 +2052,7 @@ footer p {
         object-position: right center;
     }
 }
+/* Hide Products Section */
+#products {
+    display: none !important;
+}
