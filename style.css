@@ -2061,5 +2061,7 @@ footer p {
     width: 30px;
     height: 30px;
     display: block;
-    fill: #25D366;
+    fill: #25D366 !important;
+    stroke: #25D366 !important;
+    color: #25D366 !important;
 }
