@@ -2056,3 +2056,9 @@ footer p {
 #products {
     display: none !important;
 }
+.floating-actions a svg {
+    width: 30px;
+    height: 30px;
+    display: block;
+    fill: currentColor;
+}
