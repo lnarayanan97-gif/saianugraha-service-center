@@ -1984,3 +1984,71 @@ footer p {
 .floating-actions a:hover {
   color: white;
 }
+/* =========================================
+   SAI ANUGRAHA - HERO PRODUCT IMAGE
+   ========================================= */
+
+.hero-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    overflow: hidden;
+    min-height: 450px;
+    border-radius: 30px;
+}
+
+.hero-product-image {
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: right center;
+    border-radius: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 700px) {
+
+    .hero-card {
+        min-height: 300px;
+        height: 300px;
+        padding: 0;
+        border-radius: 22px;
+    }
+
+    .hero-product-image {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: right center;
+        border-radius: 22px;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+   ========================================= */
+
+@media (max-width: 420px) {
+
+    .hero-card {
+        min-height: 250px;
+        height: 250px;
+        border-radius: 18px;
+    }
+
+    .hero-product-image {
+        height: 250px;
+        border-radius: 18px;
+        object-position: right center;
+    }
+}
